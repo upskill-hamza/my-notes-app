@@ -1,5 +1,8 @@
 # Simple Notes App (Next.js + MongoDB)
 
+This project is deployed on the link 
+## https://simple-notes-app-lilac.vercel.app/
+
 A full-stack CRUD application for managing personal notes.
 
 ## Tech Stack
