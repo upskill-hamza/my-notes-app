@@ -15,7 +15,11 @@ A full-stack CRUD application for managing personal notes.
 - 🕒 Automatic timestamps (Date & Time)
 - 📱 Fully responsive UI
 - 🔄 Real-time loading states and smooth animations
-####NOTE If you want to use this as your Notes app add .env.local in the root folder and add MONGODB_URI=mongodb+srv://yourusername:password@yourclusteraddress/notesDB
+
+### NOTE
+If you want to use this as your Notes app 
+- add .env.local in the root folder
+- add MONGODB_URI=mongodb+srv://yourusername:password@yourclusteraddress/notesDB
 
 ## Getting Started
 
@@ -32,9 +36,3 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
