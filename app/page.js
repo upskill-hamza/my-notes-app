@@ -60,7 +60,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="bg-white border-b sticky top-0 z-10">
         <div className="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-black bg-gradient-to-r from-green-600 to-orange-400 bg-clip-text text-transparent">
+          <h1 className="text-2xl font-black bg-linear-to-r from-green-600 to-orange-400 bg-clip-text text-transparent">
             Simple Notes App
           </h1>
           <span className="text-xl font-medium text-gray-700 bg-gray-100 px-3 py-1 rounded-full">
@@ -89,7 +89,7 @@ export default function Home() {
                 required
               />
               <textarea
-                className="w-full min-h-[120px] text-gray-600 placeholder:text--300 outline-none border-none focus:ring-0 resize-none"
+                className="w-full min-h-30 text-gray-600 placeholder:text--300 outline-none border-none focus:ring-0 resize-none"
                 placeholder="What's on your mind?"
                 value={formData.content}
                 onChange={(e) => setFormData({ ...formData, content: e.target.value })}
@@ -139,7 +139,7 @@ export default function Home() {
                 className="group bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col"
               >
                 <h3 className="text-lg font-bold text-gray-800 mb-3 line-clamp-1">{note.title}</h3>
-                <p className="text-gray-500 text-sm leading-relaxed mb-6 flex-grow line-clamp-4">
+                <p className="text-gray-500 text-sm leading-relaxed mb-6 grow line-clamp-4">
                   {note.content}
                 </p>
                 
